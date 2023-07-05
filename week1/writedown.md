@@ -6,6 +6,9 @@
 <p align="center">
     <img src="https://github.com/redzzzi/C23summer/assets/127263392/03b72c37-3ac2-4080-b45f-06a3e66b74b7" width="400px">
 </p>
+<p align="center">[CPU] <- [memory(RAM)] <- [storage(SSD)]</p>
+<br><br>
+
 
 ## C언어 컴파일 과정
 
