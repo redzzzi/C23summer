@@ -10,5 +10,12 @@ image from [here](https://yoons2owo.tistory.com/5)<br>
 <br><br>
 
 ## C언어 컴파일 과정
+```mermaid
+flowchart LR
+    A[helloworld.c] -->|전처리기| B[helloworld.i]
+    B[helloworld.i] -->|컴파일러| C[helloworld.s]
+    C[helloworld.s] -->|어셈블러| D[helloworld.o]
+    D[helloworld.o] -->|링커| E[helloworld\n실행파일]
+```
 
 ## C언어 기본 구조
