@@ -6,13 +6,14 @@
 <br>
 
 ## 폰 노이만 구조
-image from [here](https://yoons2owo.tistory.com/5)<br>
+source from [here](https://yoons2owo.tistory.com/5)<br>
 <img src="https://github.com/redzzzi/C23summer/assets/127263392/325896ee-ed33-414a-a26c-ec66c8533207" width="500px"><br>
 * [CPU] ← [memory(RAM)] ← [storage(SSD)]
 * 연산 수행과 관련하여 기억장치에 저장된 명령어를 통해 CPU에서 연산 수행.
 <br><br>
 
 ## C언어 기본 구조
+source from [here](https://atomic0x90.github.io/c-language/2019/05/23/Characteristics-and-structure-of-language-C.html)
 ```C
 #include<stdio.h>
 int main()
