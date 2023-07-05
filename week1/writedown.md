@@ -1,7 +1,10 @@
 📜Table of Contents📜
 ===
+[폰 노이만 구조](#폰-노이만-구조)&emsp;
+[C언어 컴파일 과정](#c언어-컴파일-과정)&emsp;
+[C언어 기본 구조](#c언어-기본-구조)
+<br>
 
-<br><br>
 ## 폰 노이만 구조
 image from [here](https://yoons2owo.tistory.com/5)<br>
 <img src="https://github.com/redzzzi/C23summer/assets/127263392/325896ee-ed33-414a-a26c-ec66c8533207" width="500px"><br>
