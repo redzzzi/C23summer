@@ -13,6 +13,15 @@ image from [here](https://yoons2owo.tistory.com/5)<br>
 <br><br>
 
 ## C언어 기본 구조
+```C
+#include<stdio.h>
+int main()
+{
+    printf("Hello, world!");
+    return 0;
+}
+```
+
 <br><br>
 
 ## C언어 컴파일 과정
