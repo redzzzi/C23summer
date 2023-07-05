@@ -13,15 +13,25 @@ source from [here](https://yoons2owo.tistory.com/5)<br>
 <br><br>
 
 ## C언어 기본 구조
-source from [here](https://atomic0x90.github.io/c-language/2019/05/23/Characteristics-and-structure-of-language-C.html)
+source from [here](https://atomic0x90.github.io/c-language/2019/05/23/Characteristics-and-structure-of-language-C.html) [also here](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=2000pansung&logNo=222135219204)
 ```C
 #include<stdio.h>
-int main()
+int main(void)
 {
     printf("Hello, world!");
     return 0;
 }
 ```
+```#include<stdio.h>```
+--
+* ```#```은  [*전처리기preprocessor*](https://ko.wikipedia.org/wiki/C_%EC%A0%84%EC%B2%98%EB%A6%AC%EA%B8%B0)를 의미. 컴파일 전 미리 처리하라는 명령어.
+* ```<stdio.h>```은 ```.h``` 확장자를 갖는 [**헤더파일**](https://ko.wikipedia.org/wiki/%ED%97%A4%EB%8D%94_%ED%8C%8C%EC%9D%BC).
+  <details>
+  <summary>간략한 뜻</summary>
+  <div markdown="1">
+  소스 코드의 파일. 표준 라이브러리 함수가 전통적으로 헤더 파일 내에 선언됨.
+  </details>
+
 
 <br><br>
 
