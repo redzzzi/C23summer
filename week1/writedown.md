@@ -24,6 +24,7 @@ int main(void)
 ```
 ```#include<stdio.h>```
 --
+*  **파일처리  전처리기문**
 * ```#```은  [*전처리기preprocessor*](https://ko.wikipedia.org/wiki/C_%EC%A0%84%EC%B2%98%EB%A6%AC%EA%B8%B0)를 의미. 컴파일 전 미리 처리하라는 명령어.
 * ```<stdio.h>```은 ```.h``` 확장자를 갖는 [**헤더파일**](https://ko.wikipedia.org/wiki/%ED%97%A4%EB%8D%94_%ED%8C%8C%EC%9D%BC).
   <details>
@@ -35,7 +36,15 @@ int main(void)
       💗 특정 파일을 읽어 소스 파일에 포함해줌.
       💗 헤더파일이 사용되려면 컴파일러에 의해 불러져야 함.
   </details>
+* 위 코드를 적음으로써 입출력, 반복문, 조건문 등을 사용할 수 있음.
+<br><br>
+➕ ```#define문```
+* **형태처리 전처리기문**
+<br><br>
 
+```int main(void) { }```
+--
+* ```main```
 
 <br><br>
 
