@@ -18,13 +18,13 @@
 ## C lang type
 정수
 
-|signed|unsigned|바이트|
-|:---:|:---:|:---:|
-|char|``|1|
-|short|``|2|
-|int|``|4|
-|long|``|8|
-|long long|``|8|
+|signed|unsigned|바이트|비트표현범위|
+|:---:|:---:|:---:|:---:|
+|char|``|1|2<sup>7</sup>-1~-2<sup>7</sup>|
+|short|``|2|-|
+|int|``|4|-|
+|long|``|8|-|
+|long long|``|8|-|
 <br>
 
 실수
