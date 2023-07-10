@@ -36,3 +36,6 @@
 |double|8|
 |long double|-|
 
+# float
+* 32bit
+* | 부호i/u(1) |      exponential(23)     |  숫자(8) |
