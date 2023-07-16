@@ -9,3 +9,9 @@
 ### 4. 예제 1015번 소수점 출력
 scanf에 ```%.3f```와 같은 식으로 적으면 안됨.. printf에만!!!<br>
 <img src="https://github.com/redzzzi/C23summer/assets/127263392/c2fc4f9c-9cb0-405d-8811-f08eef6223d9" width="600px">
+
+### 5. 예제 1019번 연월일 출력
+printf에 ```%02d```와같이 적으면, *2칸을 사용해 출력하며 채워지지 않은 칸은 0으로 대체함*을 뜻함
+```c
+printf("%02d.%02d.%02d\n", y, m, d);
+```
