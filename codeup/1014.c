@@ -3,11 +3,9 @@
 #include<stdio.h>
 
 int main() {
-  char a;
-  char b;
+  char a, b;
 
-  scanf("%c", &a);
-  scanf("%c", &b);
+  scanf("%c %c", &a, &b);
   printf("%c\n%c\n", b, a);
   return 0;
 }
