@@ -1,3 +1,4 @@
+// 소수점 출력
 #include<stdio.h>
 
 int main() {
