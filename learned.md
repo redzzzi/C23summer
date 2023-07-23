@@ -123,3 +123,22 @@ int main() {
 <pre>
 단항 연산자인 - (negative)를 변수 앞에 붙이면 부호가 반대로 바뀌어 계산된다
 </pre>
+
+## 11. 문자로 값으로 덧셈을 할 수 있다!!😮
+<img src="https://github.com/redzzzi/C23summer/assets/127263392/e16fde61-72cf-4f4c-ab59-9a011d8f05c5" width="300px"><br>
+
+```입력 문자의 다음 문자가 출력되는 코드```
+```c
+// 문자 하나 입력받고 다음 문자 출력하기
+//
+#include<stdio.h>
+
+int main() {
+  char first;
+
+  scanf("%c", &first);
+  printf("%c\n", first+1); // +1을 해줌으로써 그다음값을 의미함
+
+  return 0;
+}
+```
