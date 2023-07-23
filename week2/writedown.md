@@ -15,7 +15,7 @@
 |%lld|long long|부호 있는 10진 정수|
 |%u|unsigned int|부호 없는 10진 정수|
 |%o|unsigned int|부호 없는 8진 정수|
-|%x, %X|float, double|부호 없는 16진 정수|
+|%x(소문자), %X(대문자)|float, double|부호 없는 16진 정수|
 |%f|float|10진수 방식의 부동소수점 실수|
 |%lf|long double, double|10진수 방식의 부동소수점 실수|
 |%c|char, short, int|값에 대응하는 문자 한 개|
