@@ -74,7 +74,22 @@ int main() {
     🐤 세 번째 매개변수: <b>문자열을 입력 받을 stream</b>을 받음
 </pre>
 
-&emsp;&emsp;&emsp;[*stream*](https://newmkka.tistory.com/78)
+
+<details>
+  <summary>C언어 표준 입출력 스트림</summary>
+  <div markdown="1">
+  
+  <br>
+  
+  |스트림|설명|장치|
+  |:---:|:---:|:---:|
+  |stdin|표준 입력|키보드|
+  |stdout|표준 출력|화면|
+  |stderr|표준 에러|화면|
+  |stdprn|표준 프린터|프린터|
+  |stdaux|표준 보조|직렬 포트|
+</details>
+
 * 공백 포함 문자열 입력 받음
 * stdin: 키보드에서 입력을 받겠다는 뜻임
 * ```\n```도 문자열의 일부로 인식하기 때문에 **줄바꿈 문자를 ```\0```으로 바꿔주어야 함**
