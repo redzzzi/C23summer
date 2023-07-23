@@ -74,6 +74,7 @@ int main() {
     🐤 세 번째 매개변수: <b>문자열을 입력 받을 stream</b>을 받음
 </pre>
 
+&emsp;&emsp;&emsp;[*stream*](https://newmkka.tistory.com/78)
 * 공백 포함 문자열 입력 받음
 * stdin: 키보드에서 입력을 받겠다는 뜻임
 * ```\n```도 문자열의 일부로 인식하기 때문에 **줄바꿈 문자를 ```\0```으로 바꿔주어야 함**
