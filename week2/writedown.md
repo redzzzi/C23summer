@@ -15,12 +15,17 @@
 |%lld|long long|부호 있는 10진 정수|
 |%u|unsigned int|부호 없는 10진 정수|
 |%o|unsigned int|부호 없는 8진 정수|
-|%x, %X<br><br><img src="https://github.com/redzzzi/C23summer/assets/127263392/c7e639ab-0c05-4497-b0a5-e836fb7f3440" width="200px">|float, double|부호 없는 16진 정수|
+|%x, %X|float, double|부호 없는 16진 정수|
 |%f|float|10진수 방식의 부동소수점 실수|
 |%lf|long double, double|10진수 방식의 부동소수점 실수|
 |%c|char, short, int|값에 대응하는 문자 한 개|
 |%s|char*(문자열)|문자열|
 |%p|void(주소값)|포인터 주소값|
+
+```%x```와 ```%X```의 이해를 돕기 위한 그림<br>
+
+<img src="https://github.com/redzzzi/C23summer/assets/127263392/c7e639ab-0c05-4497-b0a5-e836fb7f3440" width="200px"><Br>
+알파벳 대소문자는 표현만 다를뿐 같은 값을 의미함!!
 
 ## C lang type
 정수형 변수
