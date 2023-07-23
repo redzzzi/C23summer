@@ -23,25 +23,24 @@
 |%p|void(주소값)|포인터 주소값|
 
 ## C lang type
-정수
-
-|signed|unsigned|바이트|비트표현범위|
+정수형 변수
+|자료형|메모리 크기|값의 범위|-|
 |:---:|:---:|:---:|:---:|
-|char|``|1|2<sup>7</sup>-1~-2<sup>7</sup>|
-|short|``|2|-|
-|int|``|4|-|
-|long|``|8|-|
-|long long|``|8|-|
+|char|1byte = 8bit|-2<sup>7</sup> ~ 2<sup>7</sup>-1|-128 ~ 127|
+|unsigned char|``|0 ~ 2<sup>8</sup>-1|0 ~ 255|
+|int|4byte|-2<sup>31</sup> ~ 2<sup>31</sup>-1|-2,147,483,648 ~ 2,147,483,647|
+|unsigned int|``|0 ~ 2<sup>32</sup>-1|0 ~ 4,294,967,296|
+|short|2byte|-2<sup>15</sup> ~ 2<sup>15</sup>-1|-32,768 ~ 32,768|
+|long long int|8byte|-2<sup>63</sup> ~ 2<sup>63</sup>-1|-9,223,372,036,854,775,808 ~ 9,223,372,036,854,775,807|
 <br>
 
-실수
+실수형 변수
+|자료형|메모리 크기|값의 범위(대략)|
+|:---:|:---:|:---:|
+|float|4byte|-3.4x10<sup>38</sup> ~ 3.4x10<sup>38</sup>|
+|double|8byte|-1.7x10<sup>308</sup> ~ 1.7x10<sup>308</sup>|
+|long double|8 or 16|double보다 큼|
 
-|이름|바이트|
-|:---:|:---:|
-|float|4|
-|double|8|
-|long double|-|
-
-# float
+## float
 * 32bit
 * | 부호i/u(1) |      exponential(23)     |  숫자(8) |
