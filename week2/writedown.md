@@ -37,8 +37,8 @@
 실수형 변수
 |자료형|메모리 크기|값의 범위(대략)|
 |:---:|:---:|:---:|
-|float|4byte|-3.4x10<sup>38</sup> ~ 3.4x10<sup>38</sup>|
-|double|8byte|-1.7x10<sup>308</sup> ~ 1.7x10<sup>308</sup>|
+|float|4byte|±3.4x10<sup>-38</sup> ~ ±3.4x10<sup>38</sup>|
+|double|8byte|±1.7x10<sup>-308</sup> ~ ±1.7x10<sup>308</sup>|
 |long double|8 or 16|double보다 큼|
 
 ## float
