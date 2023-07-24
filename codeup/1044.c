@@ -3,10 +3,10 @@
 #include<stdio.h>
 
 int main() {
-  int n;
-  scanf("%d", &n);
+  long long int n;
+  scanf("%lld", &n);
   ++n;
-  printf("%d\n", n);
+  printf("%lld\n", n);
 
   return 0;
 }
