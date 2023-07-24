@@ -8,3 +8,4 @@
 [문자열 입력 함수](https://iridescent-zeal.tistory.com/2)<br>
 [자료형](https://github.com/redzzzi/C23summer/blob/main/week2/writedown.md)<br>
 [형 변환](http://www.tcpschool.com/c/c_datatype_typeConversion)<br>
+[연산자 우선순위](https://dojang.io/mod/page/view.php?id=188)<br>
