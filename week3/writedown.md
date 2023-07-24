@@ -18,4 +18,34 @@
 |\|\||논리합<br>(or)|x \|\| y|x나 y 중 하나라도 참이면 결과값은 참,<br>둘 다 거짓이면 거짓|
 |!|논리 부정<br>(not)|! x|X의 논리 값이 참이면 거짓,<br>거짓이면 참|
 
-##
+## C언어에서의 true, false
+
+* True: 0 이외의 모든 값
+* False: 0
+<details>
+<summary><code>백준 10952</code></summary>
+<div markdown="1">
+
+<br>
+
+  ```c
+  // A + B - 5
+  //
+  #include<stdio.h>
+  
+  int main( void ) {
+    int a, b;
+  
+    while (1) {
+      scanf("%d %d", &a, &b);
+      if (a==0 && b==0) {
+        break;
+      }
+      else {
+        printf("%d\n", a+b);
+      }
+    }
+    return 0;
+  }
+  ```
+</details>
