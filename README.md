@@ -9,4 +9,4 @@
 🏷️[자료형](https://github.com/redzzzi/C23summer/blob/main/week2/writedown.md)<br>
 🏷️[형 변환](http://www.tcpschool.com/c/c_datatype_typeConversion)<br>
 🏷️[연산자 우선순위](https://dojang.io/mod/page/view.php?id=188)<br>
-🏷️[비트 연산의 장점](https://blog.naver.com/liveforu/221955373677)<br>
+🏷️[비트 연산](https://blog.naver.com/liveforu/221955373677)<br>
