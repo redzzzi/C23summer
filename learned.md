@@ -225,3 +225,23 @@ C언어에서<br>
 
 * 조건식 계산 결과가 ***true*** → ```:``` 왼쪽의 값 또는 식으로 바뀜
 * 조건식 계산 결과가 ***false*** → ```:``` 오른쪽의 값 또는 식으로 바뀜
+<details>
+<summary><code>코드업 1064번</code></summary>
+<div markdown="1">
+
+<br>
+
+```c
+// 삼항연산 - 정수 3개 입력받아 가장 작은 수 출력하기!!
+
+#include<stdio.h>
+
+int main(void) {
+  int a, b, c;
+  scanf("%d %d %d", &a, &b, &c);
+  printf("%d\n", (a<b?a:b)<c?(a<b?a:b):c);
+
+  return 0;
+}
+```
+</details>
