@@ -173,3 +173,9 @@ C언어에서<br>
 |5<<2|1|0|1|0|||
 
 [*source*](https://sf2020.tistory.com/29)
+
+<img src="https://github.com/redzzzi/C23summer/assets/127263392/902de547-aaa2-487a-b10f-83f1c24d7a44" width="500px">
+
+[*source*](https://codeup.kr/problem.php?id=1047)
+
+
