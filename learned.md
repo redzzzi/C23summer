@@ -160,6 +160,14 @@ C언어에서<br>
 ## 13. [코드업 1047번] 비트 시프트 연산자
 * 비트를 이동시킴
 
+<details>
+<summary><code>비트 연산자 진리표</code></summary>
+<div markdown="1">
+
+  <img src="https://github.com/redzzzi/C23summer/assets/127263392/f761232b-5560-4b49-b0e1-ea6ef60baf0f" width="600px">
+
+</details>
+
 |비트 연산자 종류|설명|연산 이름|
 |:---:|:---:|:---:|
 |```~```|비트를 1이면 0으로, 0이면 1로 반전시킴|비트 NOT 연산|
