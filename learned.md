@@ -178,4 +178,9 @@ C언어에서<br>
 
 [*source*](https://codeup.kr/problem.php?id=1047)
 
+* 2의 거듭제곱 배 출력&emsp;
+  <img src="https://github.com/redzzzi/C23summer/assets/127263392/11e97d4f-bdbb-4827-a362-653bd543df83" width="300px">
+  [*source*](https://codeup.kr/problem.php?id=1048)
+
+
 
