@@ -59,7 +59,7 @@
 
 ## float
 * 32bit
-* | 부호i/u(1) |      exponential(23)     |  숫자(8) |
+* | 부호i/u(1) |      exponential(8)     |  숫자(23) |
 
 * 64bit
 * | 부호i/u(1) |      exponential(10)     |  숫자(53) | ?????
