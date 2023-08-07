@@ -16,9 +16,14 @@ int add(int a, int b) {
 ```c
 #include<stdio.h>
 
+int add(int a, int b) {
+  return a+b;
+}
+
 int main(void) {
   int result = add(1, 2);
   printf("Hello, world!\n");
+  printf("The result is %d.\n", result);
   return 0;
 }
 ```
