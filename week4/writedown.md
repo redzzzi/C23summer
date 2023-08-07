@@ -7,9 +7,18 @@
 * 코드 유지•보수의 용이함
 * 효율성
 
-## 함수 예시
+## 함수 활용 예시
 ```c
 int add(int a, int b) {
   return a+b;
+}
+```
+```c
+#include<stdio.h>
+
+int main(void) {
+  int result = add(1, 2);
+  printf("Hello, world!\n");
+  return 0;
 }
 ```
