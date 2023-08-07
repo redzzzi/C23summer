@@ -58,8 +58,12 @@
 |long double|8 or 16|double보다 큼|-|
 
 ## IEEE 754 Floating-point standard
+* float가 아래와 같은 형식으로 저장됨
+<br>
+
 * 32bit
 * | 부호i/u(1) |      exponential(8)     |  숫자(23) |
+<br>
 
 * 64bit
 * | 부호i/u(1) |      exponential(10)     |  숫자(53) | ?????
