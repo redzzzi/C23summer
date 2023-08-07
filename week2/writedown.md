@@ -57,7 +57,7 @@
 |double|8byte|±1.7x10<sup>-308</sup> ~ ±1.7x10<sup>308</sup>|소수점 이하 15자리까지|
 |long double|8 or 16|double보다 큼|-|
 
-## float
+## IEEE 754 Floating-point standard
 * 32bit
 * | 부호i/u(1) |      exponential(8)     |  숫자(23) |
 
