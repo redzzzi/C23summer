@@ -13,11 +13,11 @@ buffer을 비워주는 함수임
 |프로세서 범용 레지스터|32bit(=4byte)|64bit(=8byte)|
 |프로그램 카운터|4byte|8byte|
 |메모리 어드레싱<sup>최대</sup>|32bit|64bit|
-|-|4GB 메모리|16EB|
+|어드레싱 모드 범위|4GB|256TB|
 <pre><b>(메모리 크기)</b> = 2 <sup>bit의 수</sup> X 1B</pre>
 * 4GB 계산 과정: 메모리크기=2<sup>32</sup>X1B=2<sup>2</sup>X2<sup>30</sup>X1B=4GB
 * 16EB 계산 과정: 메모리크기=2<sup>64</sup>X1B=2<sup>4</sup>X2<sup>60</sup>X1B=16EB
-<br>
+   * *실제로는 하위 48bit만 사용하여 256TB의 어드레싱 모드 범위를 가짐*
 
 # 📌포인터 <sup><i>⭐매우 헷갈리는 아이임⭐</i></sup>
 [포인터의 개념 - TCPschool](http://www.tcpschool.com/c/c_pointer_intro)
