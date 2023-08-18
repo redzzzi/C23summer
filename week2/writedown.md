@@ -58,12 +58,16 @@
 |long double|8 or 16|double보다 큼|-|
 
 ## IEEE 754 Floating-point standard
+[블로그설명](https://jake-seo-dev.tistory.com/428)
 * float가 아래와 같은 형식으로 저장됨
-<br>
 
-* 32bit
-* | 부호i/u(1) |      exponential(8)     |  숫자(23) |
-<br>
+|🖥️|32bit|🖥️|
+|:---:|:---:|:---:|
+| 부호i/u(1비트) |      exponential(8비트)     |  숫자(23비트) |
 
-* 64bit
-* | 부호i/u(1) |      exponential(10)     |  숫자(53) | ?????
+|🖥️|64bit|🖥️|
+|:---:|:---:|:---:|
+| 부호i/u(1비트) |      exponential(10비트)     |  숫자(53비트) |
+
+<img src="https://github.com/redzzzi/C23summer/assets/127263392/ad66efb7-772f-4172-b8db-d9922f2c4b3b" width="600px">
+
