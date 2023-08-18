@@ -1,23 +1,25 @@
-## scanf와 fgets의 차이
+## 📍scanf와 fgets의 차이
 * 위 두 개 동시에 쓰려면(?) → 중간에 엔터 값을 비워주는 ```get char();```을 사용!
 * fgets: 설정된 바이트만큼 또는 ```\n```가 나올 때까지 입력을 받음
     * 엔터 기준이므로 그 뒤의 문자를 입력받지 않음
     * buffer에 엔터를 비워줘야 함
 
-## f(flush)();
+## 📍f(flush)();
 buffer을 비워주는 함수임
 
-## 운영체제에서의 32bit와 64bit
+## 📍운영체제에서의 32bit와 64bit
 |크기|32bit|64bit|
 |:---:|:---:|:---:|
 |프로세서 범용 레지스터|32bit(=4byte)|64bit(=8byte)|
 |프로그램 카운터|4byte|8byte|
 |메모리 어드레싱<sup>최대</sup>|32bit|64bit|
-|-|4GB 메모리|256TB|
-
+|-|4GB 메모리|16EB|
+<pre><b>(메모리 크기)</b> = 2 <sup>bit의 수</sup> X 1B</pre>
+* 4GB 계산 과정: 메모리크기=2<sup>32</sup>X1B=2<sup>2</sup>X2<sup>30</sup>X1B=4GB
+* 16EB 계산 과정: 메모리크기=2<sup>64</sup>X1B=2<sup>4</sup>X2<sup>60</sup>X1B=16EB
 <br>
 
-# 포인터 <sup><i>⭐매우 헷갈리는 아이임⭐</i></sup>
+# 📌포인터 <sup><i>⭐매우 헷갈리는 아이임⭐</i></sup>
 [포인터의 개념 - TCPschool](http://www.tcpschool.com/c/c_pointer_intro)
 <details>
    <summary>다른 파일에서 살짝 언급한 개념</summary>
