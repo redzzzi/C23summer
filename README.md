@@ -3,6 +3,7 @@
 [CodeUp_C100](https://codeup.kr/problemsetsol.php?psid=23)<br>
 [Cbasics](https://opentutorials.org/module/3921/23494)<br>
 [백준문제집](https://www.acmicpc.net/workbook/view/2047)
+[정보통신기술용어해설](http://www.ktword.co.kr/index.php)
 ---
 
 🏷️[메모리 구조](http://www.tcpschool.com/c/c_memory_structure)<br>
