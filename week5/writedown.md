@@ -181,15 +181,168 @@ buffer을 비워주는 함수임
    ```
 </details>
 <details>
-   <summary><code>포인터사용코드와 출력결과예상</code></summary>
+   <summary><code>포인터사용코드와 출력결과예상4</code></summary>
    <div markdown="1">
 
    <br>
 
-   난이도: ★☆☆
+   난이도: ★★☆
    ```c
+   #include <stdio.h>
+   
+   void updateValue( int *p )
+   {
+   	*p = 30;
+   }
+   
+   int main( void )
+   {
+   	int x = 10;
+   	updateValue( &x );
+   	printf( "%d", x );
+   	return 0;
+   }
+   ```
+</details>
+<details>
+   <summary><code>포인터사용코드와 출력결과예상5</code></summary>
+   <div markdown="1">
 
-```
+   <br>
+
+   난이도: ★★☆
+   ```c
+   #include <stdio.h>
+   
+   int main( void )
+   {
+       int x = 10;
+       int *p1 = &x;
+       int **p2 = &p1;
+       printf( "%d", **p2 );
+       return 0;
+   }
+   ```
+</details>
+<details>
+   <summary><code>포인터사용코드와 출력결과예상6</code></summary>
+   <div markdown="1">
+
+   <br>
+
+   난이도: ★★☆
+   ```c
+   void swap( int *a, int *b )
+   {
+       int temp = *a;
+       *a = *b;
+       *b = temp;
+   }
+   
+   int main( void )
+   {
+       int x = 10;
+       int y = 20;
+       swap( &x, &y );
+       printf( "%d %d", x, y );
+       return 0;
+   }
+   ```
+</details>
+<details>
+   <summary><code>포인터사용코드와 출력결과예상7</code></summary>
+   <div markdown="1">
+
+   <br>
+
+   난이도: ★★★
+   ```c
+   void change( int **q )
+   {
+       int y = 20;
+       *q = &y;
+   }
+   
+   int main( void )
+   {
+       int x = 10;
+       int *p = &x;
+       change( &p );
+       printf( "%d", *p );
+       return 0;
+   }
+   ```
+</details>
+<details>
+   <summary><code>포인터사용코드와 출력결과예상8</code></summary>
+   <div markdown="1">
+
+   <br>
+
+   난이도: ★★★
+   ```c
+   void update( int **p )
+   {
+       int y = 50;
+       *p = &y;
+   }
+   int main( void )
+   {
+       int x = 10;
+       int *p = &x;
+       update( &p );
+       printf( "%d", x );
+       return 0;
+   }
+   ```
+</details>
+<details>
+   <summary><code>포인터사용코드와 출력결과예상9</code></summary>
+   <div markdown="1">
+
+   <br>
+
+   난이도: ★★★
+   ```c
+   void update( int **p )
+   {
+       int y = 50;
+       *p = &y;
+   }
+   int main( void )
+   {
+       int x = 10;
+       int *p = &x;
+       update( &p );
+       printf( "%d", *p );
+       return 0;
+   }
+   ```
+</details>
+<details>
+   <summary><code>포인터사용코드와 출력결과예상10</code></summary>
+   <div markdown="1">
+
+   <br>
+
+   난이도: ★★★
+   ```c
+   void modify( int **ptr )
+   {
+       int local = 25;
+       *ptr = &local;
+   }
+   int main( void )
+   {
+       int a = 10;
+       int *p = &a;
+       modify( &p );
+   
+       printf( "%d", *p );
+   
+       return 0;
+   }
+   ```
 </details>
 <p align="right">ꉂ☺ᵎᵎᵎ</p>
 
