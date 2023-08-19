@@ -7,7 +7,7 @@
     * 변수가 위치한 주소를 지정함(?)
 * 함수 호출이될 때 값이 먼저 참조가 됨
 
-## format specifier
+## [format specifier](https://mgoons.tistory.com/6)
 |서식 지정자|출력 대상|출력형태|
 |:---:|:---:|:---:|
 |%d|char, short, int|부호 있는 10진 정수|
@@ -15,6 +15,7 @@
 |%lld|long long|부호 있는 10진 정수|
 |%u|unsigned int|부호 없는 10진 정수|
 |%o|unsigned int|부호 없는 8진 정수|
+|%lu|unsigned long|-|
 |%x, %X|float, double|부호 없는 16진 정수|
 |%f|float|10진수 방식의 부동소수점 실수|
 |%lf|long double, double|10진수 방식의 부동소수점 실수|
