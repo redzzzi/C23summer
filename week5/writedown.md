@@ -29,9 +29,30 @@ buffer을 비워주는 함수임
 
 * CPU가 메모리에 더 빨리 접근하기 위해 해당 계층이 존재함.
 * 레지스터와 캐시는 CPU 내부에, 메모리는 CPU 외부에 존재. 하드디스크는 CPU가 직접 접근 불가[^id].
+#### ✅메모리 계층 구조의 필요성✅
+
+> 🤔사전 지식🤔
+>> 🏷️[폰 노이만 구조](https://ko.wikipedia.org/wiki/%ED%8F%B0_%EB%85%B8%EC%9D%B4%EB%A7%8C_%EA%B5%AC%EC%A1%B0)
+>> #### 🏷️[시스템 버스](https://dheldh77.tistory.com/entry/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EB%B2%84%EC%8A%A4System-bus)
+>> <img src="https://github.com/redzzzi/C23summer/assets/127263392/13c9e8d2-88c6-42b9-8fb5-7c6b432b5ba2" width="300px">
+>>
+>>   * 컴퓨터의 구성요소를 서로 연결하고 데이터 전달을 위한 경로
+>>   * 주소 버스, 데이터 버스, 제어 버스로 구성
+>>     1. 주소 버스
+>>        * 메모리 주소나 I/O Unit 포트 번호 전달
+>>        * CPU와 메모리는 <b>단방향</b>으로 데이터 전달이 가능한 버스 이용하므로, 주소 전달이 CPU에서 메모리로만 이루어짐
+>>        * (CPU or 메모리)와 I/O Unit은 양방향으로 데이터 전달이 가능한 버스 사용
+>>     2. 데이터 버스
+>>        * 데이터 전달
+>>        * 각 구성요소<sup>CPU, 메모리, I/O Unit</sup>는 양방향으로 데이터 전달이 가능한 버스 사용
+>>     3. 제어 버스
+>>        * 제어 신호 전달
+>>        * Read와 Write 신호가 전달됨
+>>        * 각 구성요소는 양방향으로 데이터 전달이 가능한 버스 사용
+   
 <pre>
-✅메모리 계층 구조의 필요성✅<br>
-   <b><i>CPU는 작은 메모리에 더 빨리 접근할 수 있다!</i></b>
+<b><i>CPU는 작은 메모리에 더 빨리 접근할 수 있다!</i></b><br>
+   디코딩 속도를 통해 이를 설명할 수 있는데,
 </pre>
 
 ### ✏️[프로그램 카운터](https://ko.wikipedia.org/wiki/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8_%EC%B9%B4%EC%9A%B4%ED%84%B0)<sub><i>명령어 포인터</i></sub>
