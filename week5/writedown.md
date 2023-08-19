@@ -123,7 +123,7 @@ buffer을 비워주는 함수임
 
 ## 📍주소값
 * 데이터 주소값: 해당 데이터가 저장된 메모리의 시작 주소
-   * 1바이트 크기 메모리 공간에 저장됨
+   * 1바이트 크기 메모리 공간으로 나누어 표현됨
   
 <p align="center">
    <img src="https://github.com/redzzzi/C23summer/assets/127263392/12dfd749-e4d8-4a0c-b153-cfe8318ddec6" width="200px">
@@ -144,5 +144,11 @@ buffer을 비워주는 함수임
 <p align="center">
    <img src="https://github.com/redzzzi/C23summer/assets/127263392/7d25295a-d070-4ab6-93bd-3c40b7586b58" width="200px">
 </p>
+
+<p align="center">
+   <img src="https://github.com/redzzzi/C23summer/assets/127263392/74a730bb-bd03-40c7-8982-acd27ca925f4" width="700px">
+
+* 32비트 운영체제에서 포인터 크기는 4바이트, **64비트 운영체제에서 포인터 크기는 8바이트**임
+   * 메모리 접근을 위한 주소가 각각 32비트, 64비트만큼 가능하기 때문
 
 [^id]: 접근하려면? 하드 디스크의 데이터를 메모리로 이동시킨 후, 메모리에서 접근해야 함. 다만, 아주 접근만 허용.
