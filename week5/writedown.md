@@ -23,11 +23,16 @@ buffer을 비워주는 함수임
 * 가장 빠른 속도로 접근 가능.
 
 #### ➕[메모리 계층 구조](https://ko.wikipedia.org/wiki/%EB%A9%94%EB%AA%A8%EB%A6%AC_%EA%B3%84%EC%B8%B5_%EA%B5%AC%EC%A1%B0)
-* 레지스터와 캐시는 CPU 내부에, 메모리는 CPU 외부에 존재. 하드디스크는 CPU가 직접 접근 불가[^id].
 <p align="right">
    <img src="https://github.com/redzzzi/C23summer/assets/127263392/c0ee1d7b-681a-4ede-8c29-52fe402f30b5" width="300px">
 </p>
 
+* CPU가 메모리에 더 빨리 접근하기 위해 해당 계층이 존재함.
+* 레지스터와 캐시는 CPU 내부에, 메모리는 CPU 외부에 존재. 하드디스크는 CPU가 직접 접근 불가[^id].
+<pre>
+✅메모리 계층 구조의 필요성✅<br>
+   <b><i>CPU는 작은 메모리에 더 빨리 접근할 수 있다!</i></b>
+</pre>
 
 ### ✏️[프로그램 카운터](https://ko.wikipedia.org/wiki/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8_%EC%B9%B4%EC%9A%B4%ED%84%B0)<sub><i>명령어 포인터</i></sub>
 * CPU 내부 레지스터 중 하나.
