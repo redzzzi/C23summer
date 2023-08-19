@@ -14,7 +14,21 @@ buffer을 비워주는 함수임
 |프로그램 카운터|4byte|8byte|
 |메모리 어드레싱<sup>최대</sup>|32bit|64bit|
 |어드레싱 모드 범위|4GB|256TB|
-<br>
+
+<pre><b>(메모리 크기)</b> = 2 <sup>bit의 수</sup> X 1B</pre>
+* 4GB 계산 과정: 메모리크기=2<sup>32</sup>X1B=2<sup>2</sup>X2<sup>30</sup>X1B=4GB
+* 16EB 계산 과정: 메모리크기=2<sup>64</sup>X1B=2<sup>4</sup>X2<sup>60</sup>X1B=16EB
+   * *실제로는 하위 48bit만 사용하여 256TB의 어드레싱 모드 범위를 가짐*
+
+### ✏️[프로그램 카운터](https://ko.wikipedia.org/wiki/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8_%EC%B9%B4%EC%9A%B4%ED%84%B0)<sub><i>명령어 포인터</i></sub>
+* CPU 내부 레지스터 중 하나
+* 다음에 실행될 명령어의 주소를 가지고 있어, 실행할 기계어 코드의 위치를 지정함
+* 인텔 x86 계열 CPU에서는 IP<sub>Instruction Pointer</sub>라고 함
+
+### ✏️프로세서 범용 레지스터
+* 작은 데이터의 임시 저장공간
+* 연산 처리<sub>연산 입력 또는 연산 결과 일시 저장</sub> 및 데이터의 주소 지정, 컴퓨터 장치 제어 역할
+* (레지스터 비트 수)==CPU 1회 연산에 처리 가능한 데이터 비트 
 
 #### ➕[프로세서 레지스터](https://ko.wikipedia.org/wiki/%ED%94%84%EB%A1%9C%EC%84%B8%EC%84%9C_%EB%A0%88%EC%A7%80%EC%8A%A4%ED%84%B0)
 * 컴퓨터의 프로세서 내에서 자료를 보관하는 아주 빠른 **기억 장소**.
@@ -71,17 +85,6 @@ buffer을 비워주는 함수임
    🍀더 큰 용량의 메모리 사용 경우, 더 많은 시간 소요<br>
    ⭐따라서 <b>데이터를 저장하는 메모리가 작아야 함!!</b>⭐
 </pre>
-
-### ✏️[프로그램 카운터](https://ko.wikipedia.org/wiki/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8_%EC%B9%B4%EC%9A%B4%ED%84%B0)<sub><i>명령어 포인터</i></sub>
-* CPU 내부 레지스터 중 하나.
-* 다음에 실행될 명령어의 주소를 가지고 있어, 실행할 기계어 코드의 위치를 지정한다.
-* 인텔 x86 계열 CPU에서는 IP<sub>Instruction Pointer</sub>라고 함.
-<br>
-
-<pre><b>(메모리 크기)</b> = 2 <sup>bit의 수</sup> X 1B</pre>
-* 4GB 계산 과정: 메모리크기=2<sup>32</sup>X1B=2<sup>2</sup>X2<sup>30</sup>X1B=4GB
-* 16EB 계산 과정: 메모리크기=2<sup>64</sup>X1B=2<sup>4</sup>X2<sup>60</sup>X1B=16EB
-   * *실제로는 하위 48bit만 사용하여 256TB의 어드레싱 모드 범위를 가짐*
 
 # 📌포인터 <sup><i>⭐매우 헷갈리는 아이임⭐</i></sup>
 [포인터의 개념 - TCPschool](http://www.tcpschool.com/c/c_pointer_intro)
