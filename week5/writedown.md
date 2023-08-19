@@ -14,6 +14,23 @@ buffer을 비워주는 함수임
 |프로그램 카운터|4byte|8byte|
 |메모리 어드레싱<sup>최대</sup>|32bit|64bit|
 |어드레싱 모드 범위|4GB|256TB|
+<br>
+
+#### ➕[프로세서 레지스터](https://ko.wikipedia.org/wiki/%ED%94%84%EB%A1%9C%EC%84%B8%EC%84%9C_%EB%A0%88%EC%A7%80%EC%8A%A4%ED%84%B0)
+* 컴퓨터의 프로세서 내에서 자료를 보관하는 아주 빠른 **기억 장소**.
+* 현재 계산을 수행중인 값을 저장하는 데 사용.
+* 프로세서==CPU
+* 가장 빠른 속도로 접근 가능.
+
+#### ➕[메모리 계층 구조](https://ko.wikipedia.org/wiki/%EB%A9%94%EB%AA%A8%EB%A6%AC_%EA%B3%84%EC%B8%B5_%EA%B5%AC%EC%A1%B0)
+
+
+### ✏️[프로그램 카운터](https://ko.wikipedia.org/wiki/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8_%EC%B9%B4%EC%9A%B4%ED%84%B0)<sub><i>명령어 포인터</i></sub>
+* CPU 내부 레지스터 중 하나.
+* 다음에 실행될 명령어의 주소를 가지고 있어, 실행할 기계어 코드의 위치를 지정한다.
+* 인텔 x86 계열 CPU에서는 IP<sub>Instruction Pointer</sub>라고 함.
+<br>
+
 <pre><b>(메모리 크기)</b> = 2 <sup>bit의 수</sup> X 1B</pre>
 * 4GB 계산 과정: 메모리크기=2<sup>32</sup>X1B=2<sup>2</sup>X2<sup>30</sup>X1B=4GB
 * 16EB 계산 과정: 메모리크기=2<sup>64</sup>X1B=2<sup>4</sup>X2<sup>60</sup>X1B=16EB
