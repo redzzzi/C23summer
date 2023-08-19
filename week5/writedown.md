@@ -23,6 +23,10 @@ buffer을 비워주는 함수임
 * 가장 빠른 속도로 접근 가능.
 
 #### ➕[메모리 계층 구조](https://ko.wikipedia.org/wiki/%EB%A9%94%EB%AA%A8%EB%A6%AC_%EA%B3%84%EC%B8%B5_%EA%B5%AC%EC%A1%B0)
+* 레지스터와 캐시는 CPU 내부에, 메모리는 CPU 외부에 존재. 하드디스크는 CPU가 직접 접근 불가[^id].
+<p align="right">
+   <img src="https://github.com/redzzzi/C23summer/assets/127263392/c0ee1d7b-681a-4ede-8c29-52fe402f30b5" width="300px">
+</p>
 
 
 ### ✏️[프로그램 카운터](https://ko.wikipedia.org/wiki/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8_%EC%B9%B4%EC%9A%B4%ED%84%B0)<sub><i>명령어 포인터</i></sub>
@@ -88,3 +92,5 @@ buffer을 비워주는 함수임
 <p align="center">
    <img src="https://github.com/redzzzi/C23summer/assets/127263392/7d25295a-d070-4ab6-93bd-3c40b7586b58" width="200px">
 </p>
+
+[^id]: 접근하려면? 하드 디스크의 데이터를 메모리로 이동시킨 후, 메모리에서 접근해야 함. 다만, 아주 접근만 허용.
