@@ -9,11 +9,11 @@
 void push( int new_data, int stack[], int *top_index, int *cur_size )
 {
 	// check that stack is full
-	if ( *cur_size>=MAX_STACK_SIZE ) // push, pop은 기존 자료에 변동이 생기도록 하기 때문에 포인터를 써야함(?)
+	if ( *cur_size>=MAX_STACK_SIZE ) // push, pop은 기존 자료에 변동이 생기도록 하기 때문에 포인터를 써야함
 	{
 		printf( "Stack is full\n" );
 		return;
-	} else {
+	} else { // if에서 return 해주기 때문에 굳이 else 쓸 필요 없음
     *cur_size += 1;
     *top_index += 1; // 위로 데이터 계속 쌓이니까 1 더해주고 해당 인덱스에 데이터 내용 넣기
     stack[*top_index] = new_data; // 포인터가 개별적인 상황을 적용시키기 유용한 듯!
@@ -69,9 +69,9 @@ void print_stack( int stack[], int cur_size )
 		printf( "-------------\n" );
 		return;
 	} else {
-    for (int i=cur_size-1; i>=0; i--) {
-      printf("%d\n", stack[i]);
-    }
+      for (int i=cur_size-1; i>=0; i--) {
+        printf("%d\n", stack[i]);
+      }
   }
 	// print all stack data
 	// ex )
