@@ -6,6 +6,7 @@
 [정보통신기술용어해설](http://www.ktword.co.kr/index.php)
 ---
 
+🏷️[메모리 writedown](https://github.com/redzzzi/C23summer/blob/main/week5/writedown.md)<br>
 🏷️[메모리 구조](http://www.tcpschool.com/c/c_memory_structure)<br>
 🏷️[문자열 입력 함수](https://iridescent-zeal.tistory.com/2)<br>
 🏷️[자료형](https://github.com/redzzzi/C23summer/blob/main/week2/writedown.md)<br>
