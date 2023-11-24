@@ -1,0 +1,3 @@
+# C problems -> PNU
+# C solution codes in folders names 'midhomework' and 'finhomework' -> redzzzi
+# other example codes -> PNU
