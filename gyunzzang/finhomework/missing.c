@@ -39,6 +39,9 @@ int main() {
     numbers[k] = n;
     k++;
   }
+  for (int j=0; j<k; j++) {
+    printf("numbers[%d] : %d\n", j, numbers[j]);
+  }
   // 입력값 개수 체크 코드
   // printf("size is %d\n", k);
   int result;
