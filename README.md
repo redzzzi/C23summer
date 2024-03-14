@@ -13,3 +13,6 @@
 🏷️[형 변환](http://www.tcpschool.com/c/c_datatype_typeConversion)<br>
 🏷️[연산자 우선순위](https://dojang.io/mod/page/view.php?id=188)<br>
 🏷️[비트 연산](http://www.tcpschool.com/c/c_refer_bitCalculation)<br>
+
+- `gcc <file>.c` 컴파일을 할 때 왜 `a.exe`가 아닌 `a.out`이 만들어질까?
+    - [관련 스택오버플로우 글](https://stackoverflow.com/questions/47377488/why-i-get-an-a-exe-instead-of-a-out-on-window-c-programming)
