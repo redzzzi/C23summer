@@ -21,5 +21,6 @@
             - `gcc "<source>" -o "<dest>.out`
     - 리눅스에서는 `.out`을 만들어냄
 ```
-a.out file can be further linked to the definitions (or more technically libraries) represent int eh OS to form the executable image
+a.out file can be further linked to the definitions (or more technically libraries)
+represent in the OS to form the executable image
 ```
