@@ -61,14 +61,36 @@
 ## IEEE 754 Floating-point standard
 [블로그설명](https://jake-seo-dev.tistory.com/428)
 * float가 아래와 같은 형식으로 저장됨
+### ➡️ (-1)<sup>s</sup><i>M</i>2<sup>E
 
-|🖥️|32bit|🖥️|
-|:---:|:---:|:---:|
-| 부호i/u(1비트) |      exponential(8비트)     |  숫자(23비트) |
+## Encoding
+- MSB s is sign bit *`s`*
+- **exp** field encodes *`E`* (but not equal to E)
+- **frac** field encodes *`M`* (but not equal to M)
+- 공통 형식
+```
+| s | exp                 | frac                              |
+```
 
-|🖥️|64bit|🖥️|
-|:---:|:---:|:---:|
-| 부호i/u(1비트) |      exponential(10비트)     |  숫자(53비트) |
+## Precision options
+- Single precision: 32bits
+
+   | s (부호 i/u) | exponential | fractional |
+   |:---:|:---:|:---:|
+   |1비트|     8비트    |       23비트       |
+
+- Double precision: 64bits
+
+   | s (부호 i/u) | exponential | fractional |
+   |:---:|:---:|:---:|
+   |1비트|     11비트    |       52비트       |
+
+- Extended presision: 80bits (***Intel only***)
+
+   | s (부호 i/u) | exponential | fractional |
+   |:---:|:---:|:---:|
+   |1비트|     15비트    |       63 or 64비트       |
+
 
 <img src="https://github.com/redzzzi/C23summer/assets/127263392/ad66efb7-772f-4172-b8db-d9922f2c4b3b" width="600px">
 
