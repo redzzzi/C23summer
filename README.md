@@ -18,7 +18,7 @@
     - [관련 스택오버플로우 글](https://stackoverflow.com/questions/47377488/why-i-get-an-a-exe-instead-of-a-out-on-window-c-programming)
     - 윈도우에는 `a.exe`가 생기지만 다른 플랫폼에서는 지원을 안 하는 듯
         - 만약에 윈도우에서 `.out`을 만들어내고 싶다?
-            - `gcc "<source>" -o "<dest>.out`
+            - `gcc <source> -o <dest>.out`
     - 리눅스에서는 `.out`을 만들어냄
 ```
 a.out file can be further linked to the definitions (or more technically libraries)
