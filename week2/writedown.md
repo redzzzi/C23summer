@@ -56,7 +56,7 @@
 |:---:|:---:|:---:|:--:|
 |float|4byte|±3.4x10<sup>-38</sup> ~ ±3.4x10<sup>38</sup>|소수점 이하 7자리까지|
 |double|8byte|±1.7x10<sup>-308</sup> ~ ±1.7x10<sup>308</sup>|소수점 이하 15자리까지|
-|long double|8 or 16|double보다 큼|-|
+|long double|10 or 16|double보다 큼|-|
 
 ## IEEE 754 Floating-point standard
 [블로그설명](https://jake-seo-dev.tistory.com/428)
